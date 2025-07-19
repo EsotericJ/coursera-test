@@ -8,9 +8,9 @@ h1{
     margin-bottom: 15px;
 }
 
-p{
-    border: 1px solid black;
-    background-color: #a52a2a;
+.paragraph-box{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: #818181;
     width: 90%;
     height: 150px;
     margin-right: auto;
@@ -26,23 +26,27 @@ p{
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3 {
         float: left;
-        border: 1px solid green;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 20px;
     }
     .col-lg-1{
-        width: 33.33%;
+        width: 33%;
     }
     .col-lg-2{
-        width: 66.66%
+        width: 66%
     }
     .col-lg-3{
-        width: 99.99%;
+        width: 99%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3 {
         float: left;
-        border: 1px solid green;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
     }
     .col-md-1{
         width: 33.33%;
@@ -58,7 +62,9 @@ p{
 @media (max-width: 767px) {
     .col-sm-1, .col-sm-2, .col-sm-3 {
         float: left;
-        border: 1px solid green;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
     }
     .col-sm-1{
         width: 33.33%;
